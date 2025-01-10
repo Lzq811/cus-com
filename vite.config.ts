@@ -14,10 +14,11 @@ export default defineConfig({
     }
   },
   build: {
+    outDir: 'yl-plus',
     lib: {
       entry: resolve(__dirname, "src/packages/index.ts"),
       name: "cusTable",
-      fileName: (format) => `cus-table.${format}.js`
+      fileName: (format) => `yl-plus.${format}.js`
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖

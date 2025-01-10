@@ -9,9 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "cus-table-com": "^1.0.0",
+    "cus-table-com": "^2.0.0",
     "element-plus": "^2.9.2",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "york-npm-demo": "^1.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",

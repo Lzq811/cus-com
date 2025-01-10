@@ -8,7 +8,7 @@
   })
   import { ref } from 'vue'
   import type { Ref } from 'vue'
-  const msg:Ref<string> = ref('hello vue3 component')
+  const msg:Ref<string> = ref('hello vue3 component 3')
 </script>
 <template>
   <div>{{ msg }}</div>
